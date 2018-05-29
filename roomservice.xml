@@ -4,7 +4,7 @@
   <!-- Xiaomi Mi A1 -->
 
   <project name="LineageOS/android_device_xiaomi_msm8953-common" path="device/xiaomi/msm8953-common" remote="github" revision="lineage-15.1" />
-  <project name="TheScarastic/proprietary_vendor_xiaomi-1" path="vendor/xiaomi" remote="github" revision="lineage-15.1" />
+  <project name="TheScarastic/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="lineage-15.1" />
   <project name="LineageOS/android_device_xiaomi_tissot" path="device/xiaomi/tissot" remote="github" revision="lineage-15.1" />
   <project name="LineageOS/android_kernel_xiaomi_msm8953" path="kernel/xiaomi/msm8953" remote="github" revision="lineage-15.1" />
 
@@ -22,6 +22,5 @@
   <project name="brjshshrma/android_vendor_lineage" path="vendor/lineage" remote="github" revision="extended" />
   <project name="brjshshrma/android_system_core" path="system/core" remote="github" revision="extended" />
   <project name="brjshshrma/android_packages_services_Telephony" path="packages/services/Telephony" remote="github" revision="extended" />
-  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
 
 </manifest>
