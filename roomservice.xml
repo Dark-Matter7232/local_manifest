@@ -23,4 +23,6 @@
   <project name="brjshshrma/android_system_core" path="system/core" remote="github" revision="extended" />
   <project name="brjshshrma/android_packages_services_Telephony" path="packages/services/Telephony" remote="github" revision="extended" />
 
+  <!-- Lineage dependencies -->
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
 </manifest>
