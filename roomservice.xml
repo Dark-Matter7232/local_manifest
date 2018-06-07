@@ -14,14 +14,16 @@
   <remove-project name="LineageOS/android_vendor_lineage" />
   <remove-project name="LineageOS/android_system_core" />
   <remove-project name="LineageOS/android_packages_services_Telephony" />
+  <remove-project name="LineageOS/android_lineage-sdk" />
 
   <!-- Projects from my github -->
-  <project name="brjshshrma/android_frameworks_base" path="frameworks/base" remote="github" revision="extended" />
-  <project name="brjshshrma/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="extended" />
-  <project name="brjshshrma/android_packages_apps_CustomSettings" path="packages/apps/CustomSettings" remote="github" revision="extended" />
-  <project name="brjshshrma/android_vendor_lineage" path="vendor/lineage" remote="github" revision="extended" />
-  <project name="brjshshrma/android_system_core" path="system/core" remote="github" revision="extended" />
-  <project name="brjshshrma/android_packages_services_Telephony" path="packages/services/Telephony" remote="github" revision="extended" />
+  <project name="Lineage-Extended/android_frameworks_base" path="frameworks/base" remote="github" revision="extended" />
+  <project name="Lineage-Extended/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="extended" />
+  <project name="Lineage-Extended/android_packages_apps_CustomSettings" path="packages/apps/CustomSettings" remote="github" revision="extended" />
+  <project name="Lineage-Extended/android_vendor_lineage" path="vendor/lineage" remote="github" revision="extended" />
+  <project name="Lineage-Extended/android_system_core" path="system/core" remote="github" revision="extended" />
+  <project name="Lineage-Extended/android_packages_services_Telephony" path="packages/services/Telephony" remote="github" revision="extended" />
+  <project name="Lineage-Extended/android_lineage-sdk" path="lineage-sdk" remote="github" revision="extended" />
 
   <!-- Lineage dependencies -->
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
