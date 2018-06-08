@@ -15,6 +15,7 @@
   <remove-project name="LineageOS/android_system_core" />
   <remove-project name="LineageOS/android_packages_services_Telephony" />
   <remove-project name="LineageOS/android_lineage-sdk" />
+  <remove-project name="LineageOS/android_packages_apps_Updater" />
 
   <!-- Projects from my github -->
   <project name="Lineage-Extended/android_frameworks_base" path="frameworks/base" remote="github" revision="extended" />
