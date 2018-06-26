@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- Xiaomi Mi A1 -->
+  <!-- Redmi Note 5 Pro -->
 
-  <project name="LineageOS/android_device_xiaomi_msm8953-common" path="device/xiaomi/msm8953-common" remote="github" revision="lineage-15.1" />
-  <project name="TheScarastic/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="lineage-15.1" />
-  <project name="LineageOS/android_device_xiaomi_tissot" path="device/xiaomi/tissot" remote="github" revision="lineage-15.1" />
-  <project name="LineageOS/android_kernel_xiaomi_msm8953" path="kernel/xiaomi/msm8953" remote="github" revision="lineage-15.1" />
+  <project name="mdeejay/device_xiaomi_whyred" path="device/xiaomi/whyred" remote="github" revision="lineage-15.1" />
+  <project name="mdeejay/vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="aligot-release" />
+  <project name="AxelBlaz3/Codex-Kernel" path="kernel/xiaomi/whyred" remote="github" revision="O" />
 
   <!-- Remove Projects -->
   <remove-project name="LineageOS/android_frameworks_base" />
@@ -18,13 +17,13 @@
   <remove-project name="LineageOS/android_packages_apps_Updater" />
 
   <!-- Projects from my github -->
-  <project name="Lineage-Extended/android_frameworks_base" path="frameworks/base" remote="github" revision="extended" />
-  <project name="Lineage-Extended/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="extended" />
-  <project name="Lineage-Extended/android_packages_apps_CustomSettings" path="packages/apps/CustomSettings" remote="github" revision="extended" />
-  <project name="Lineage-Extended/android_vendor_lineage" path="vendor/lineage" remote="github" revision="extended" />
+  <project name="simrat39/android_frameworks_base" path="frameworks/base" remote="github" revision="extended" />
+  <project name="simrat39/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="extended" />
+  <project name="simrat39/android_packages_apps_CustomSettings" path="packages/apps/CustomSettings" remote="github" revision="extended" />
+  <project name="simrat39/android_vendor_lineage" path="vendor/lineage" remote="github" revision="extended" />
   <project name="Lineage-Extended/android_system_core" path="system/core" remote="github" revision="extended" />
   <project name="Lineage-Extended/android_packages_services_Telephony" path="packages/services/Telephony" remote="github" revision="extended" />
-  <project name="Lineage-Extended/android_lineage-sdk" path="lineage-sdk" remote="github" revision="extended" />
+  <project name="simrat39/android_lineage-sdk" path="lineage-sdk" remote="github" revision="extended" />
 
   <!-- Lineage dependencies -->
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
