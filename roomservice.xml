@@ -5,7 +5,7 @@
 
   <project name="mdeejay/device_xiaomi_whyred" path="device/xiaomi/whyred" remote="github" revision="lineage-15.1" />
   <project name="mdeejay/vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="aligot-release" />
-  <project name="AxelBlaz3/Codex-Kernel" path="kernel/xiaomi/whyred" remote="github" revision="O" />
+  <project name="akhilnarang/whyred" path="kernel/xiaomi/whyred" remote="github" revision="oreo-mr1" />
 
   <!-- Remove Projects -->
   <remove-project name="LineageOS/android_frameworks_base" />
@@ -15,6 +15,9 @@
   <remove-project name="LineageOS/android_packages_services_Telephony" />
   <remove-project name="LineageOS/android_lineage-sdk" />
   <remove-project name="LineageOS/android_packages_apps_Updater" />
+  <remove-project name="LineageOS/android_packages_overlays_Lineage" />
+  <remove-project name="LineageOS/android_packages_apps_LineageParts" />
+  
 
   <!-- Projects from my github -->
   <project name="simrat39/android_frameworks_base" path="frameworks/base" remote="github" revision="extended" />
@@ -24,7 +27,9 @@
   <project name="Lineage-Extended/android_system_core" path="system/core" remote="github" revision="extended" />
   <project name="Lineage-Extended/android_packages_services_Telephony" path="packages/services/Telephony" remote="github" revision="extended" />
   <project name="simrat39/android_lineage-sdk" path="lineage-sdk" remote="github" revision="extended" />
-
+  <project name="simrat39/android_packages_overlays_Lineage" path="packages/overlays/Lineage" remote="github" revision="lineage-15.1" />
+  <project name="simrat39/android_packages_apps_LineageParts" path="packages/apps/LineageParts" remote="github" revision="lineage-15.1" />                         
+  
   <!-- Lineage dependencies -->
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
 </manifest>
