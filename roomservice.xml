@@ -28,6 +28,9 @@
   <project name="Lineage-Extended/android_lineage-sdk" path="lineage-sdk" remote="github" revision="extended" />
                            
   
-  <!-- Lineage dependencies -->
+  <!-- Lineage Dependencies -->
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
+  
+  <!-- AOSCP Dependencies -->
+ <project path="frameworks/aoscp" name="CypherOS/frameworks_aoscp" remote="github" />
 </manifest>
