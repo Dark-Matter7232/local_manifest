@@ -25,7 +25,7 @@
   <project name="simrat39/android_vendor_lineage" path="vendor/lineage" remote="github" revision="extended" />
   <project name="Lineage-Extended/android_system_core" path="system/core" remote="github" revision="extended" />
   <project name="Lineage-Extended/android_packages_services_Telephony" path="packages/services/Telephony" remote="github" revision="extended" />
-  <project name="Lineage-Extended/android_lineage-sdk" path="lineage-sdk" remote="github" revision="extended" />
+  <project name="simrat39/android_lineage-sdk" path="lineage-sdk" remote="github" revision="extended" />
                            
   
   <!-- Lineage Dependencies -->
