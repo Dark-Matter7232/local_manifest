@@ -31,6 +31,6 @@
   <!-- Lineage Dependencies -->
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
   
-  <!-- AOSCP Dependencies -->
- <project path="frameworks/aoscp" name="CypherOS/frameworks_aoscp" remote="github" />
+  <!-- AOSCP Dependencies 
+ <project path="frameworks/aoscp" name="CypherOS/frameworks_aoscp" remote="github" /> -->
 </manifest>
