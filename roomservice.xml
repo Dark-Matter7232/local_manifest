@@ -30,8 +30,7 @@
   
   <!-- Lineage Dependencies -->
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
-  <project path="external/DUtils" name="abc_external_DUtils" remote="abc" revision="o2" />
-  <project path="packages/apps/DUI" name="abc_packages_apps_DUI" remote="abc" revision="o2" />
+ 
   
   <!-- AOSCP Dependencies 
  <project path="frameworks/aoscp" name="CypherOS/frameworks_aoscp" remote="github" /> -->
