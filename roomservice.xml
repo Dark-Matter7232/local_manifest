@@ -3,9 +3,9 @@
 
   <!-- Redmi Note 5 Pro -->
 
-  <project name="Whyred-Dev/android_device_xiaomi_whyred" path="device/xiaomi/whyred" remote="github" revision="lineage-15.1" />
+  <project name="LineageOS/android_device_xiaomi_whyred" path="device/xiaomi/whyred" remote="github" revision="lineage-15.1" />
   <project name="TheMuppets/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="lineage-15.1" />
-  <project name="Whyred-Dev/android_kernel_xiaomi_sdm660" path="kernel/xiaomi/sdm660" remote="github" revision="lineage-15.1" />
+  <project name="LineageOS/android_kernel_xiaomi_sdm660" path="kernel/xiaomi/sdm660" remote="github" revision="lineage-15.1" />
 
   <!-- Remove Projects -->
   <remove-project name="LineageOS/android_frameworks_base" />
