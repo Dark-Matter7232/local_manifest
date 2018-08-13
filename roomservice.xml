@@ -35,4 +35,7 @@
   
   <!-- AOSCP Dependencies 
  <project path="frameworks/aoscp" name="CypherOS/frameworks_aoscp" remote="github" /> -->
+
+  <!--Miui Camera-->
+ <project name="jhenrique09/vendor_xiaomi_MiuiCamera" path="vendor/xiaomi/MiuiCamera" remote="github" revision="master" />
 </manifest>
