@@ -4,7 +4,7 @@
   <!-- Redmi Note 5 Pro -->
 
   <project name="simrat39/device_xiaomi_whyred-1" path="device/xiaomi/whyred" remote="github" revision="oreo.1" />
-  <project name="BootleggersROM-Devices/vendor_xiaomi_whyred" path="vendor/xiaomi/whyred" remote="github" revision="oreo.1" />
+  <project name="BootleggersROM-Devices/vendor_xiaomi_whyred" path="vendor/xiaomi" remote="github" revision="oreo.1" />
   <project name="akhilnarang/whyred" path="kernel/xiaomi/sdm660" remote="github" revision="oreo-mr1" />
 
   <!-- Remove Projects -->
