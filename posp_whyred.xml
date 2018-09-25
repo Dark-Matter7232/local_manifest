@@ -6,6 +6,7 @@
    <remote name="los"
            fetch="https://github.com/LineageOS"
            revision="lineage-16.0" />
+           review="https://review.lineageos.org" />
 
     <remote name="pixelcaf"
           fetch="https://github.com/PixelExperience-P"
