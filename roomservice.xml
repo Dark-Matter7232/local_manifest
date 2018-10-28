@@ -1,41 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- Redmi Note 5 Pro -->
+  <!-- Mi A1 -->
 
-  <project name="simrat39/device_xiaomi_whyred-1" path="device/xiaomi/whyred" remote="github" revision="oreo.1" />
-  <project name="BootleggersROM-Devices/vendor_xiaomi_whyred" path="vendor/xiaomi" remote="github" revision="oreo.1" />
-  <project name="akhilnarang/whyred" path="kernel/xiaomi/sdm660" remote="github" revision="oreo-mr1" />
+  <project name="Dark-Matter7232/device_xiaomi_tissot" path="device/xiaomi/tissot" remote="github" revision="pie" />
+  <project name="Dark-Matter7232/vendor_xiaomi-1" path="vendor/xiaomi" remote="github" revision="pie" />
+  <project name="Dark-Matter7232/xtended_kernel_tissot" path="kernel/xiaomi/msm8953" remote="github" revision="clang" />
 
-  <!-- Remove Projects -->
-  <remove-project name="LineageOS/android_frameworks_base" />
-  <remove-project name="LineageOS/android_packages_apps_Settings" />
-  <remove-project name="LineageOS/android_vendor_lineage" />
-  <remove-project name="LineageOS/android_system_core" />
-  <remove-project name="LineageOS/android_packages_services_Telephony" />
-  <remove-project name="LineageOS/android_lineage-sdk" />
-  <remove-project name="LineageOS/android_packages_apps_Updater" />
-  <remove-project name="LineageOS/android_build" /> 
-  <remove-project name="LineageOS/android_packages_apps_LineageParts" />
-  
   <!-- Projects from my github -->
-  <project name="simrat39/android_frameworks_base" path="frameworks/base" remote="github" revision="extended" />
-  <project name="simrat39/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="extended" />
-  <project name="simrat39/android_packages_apps_CustomSettings" path="packages/apps/CustomSettings" remote="github" revision="extended" />
-  <project name="simrat39/android_vendor_lineage" path="vendor/lineage" remote="github" revision="extended" />
-  <project name="simrat39/android_system_core" path="system/core" remote="github" revision="extended" />
-  <project name="simrat39/android_packages_services_Telephony" path="packages/services/Telephony" remote="github" revision="extended" />
-  <project name="simrat39/android_lineage-sdk" path="lineage-sdk" remote="github" revision="extended" />
-  <project name="simrat39/android_build" path="build" remote="github" revision="lineage-15.1" />                        
-  <project name="simrat39/android_packages_apps_LineageParts" path="packages/apps/LineageParts" remote="github" revision="lineage-15.1" />
-  
-  <!-- Lineage Dependencies -->
-  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
- 
-  
-  <!-- AOSCP Dependencies 
- <project path="frameworks/aoscp" name="CypherOS/frameworks_aoscp" remote="github" /> -->
+  <project name="Dark-Matter7232/hardware_qcom_audio-caf-msm8996" path="hardware/qcom/audio-caf-msm8996" remote="github" revision="caf-msm8996" /> 
+  <project name="Dark-Matter7232/hardware_qcom_display-caf-msm8996" path="hardware/qcom/display-caf-msm8996" remote="github" revision="caf-msm8996" />
+  <project name="Dark-Matter7232/hardware_qcom_media-caf-msm8996" path="hardware/qcom/media-caf-msm8996" remote="github" revision="caf-msm8996" />>
 
-  <!--Miui Camera-->
- <project name="jhenrique09/vendor_xiaomi_MiuiCamera" path="vendor/xiaomi/MiuiCamera" remote="github" revision="master" />
 </manifest>
